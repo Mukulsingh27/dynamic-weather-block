@@ -6,7 +6,7 @@
 	"title": "Dynamic Map Card",
 	"category": "widgets",
 	"icon": "location-alt",
-	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"description": "Get an attractive card with real-time weather stats.",
 	"supports": {
 		"html": false
 	},
