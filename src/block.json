@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "mukul-singh/dynamic-map-card",
+	"version": "0.1.0",
+	"title": "Dynamic Map Card",
+	"category": "widgets",
+	"icon": "location-alt",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"attributes" : {
+		"cityName" : {
+			"type" : "string",
+			"default" : "Pune"
+		},
+		"minTemp" : {
+			"type" : "string",
+			"default" : "19"
+		},
+		"maxTemp" : {
+			"type" : "string",
+			"default" : "25"
+		},
+		"actualTemp" : {
+			"type" : "string",
+			"default" : "23"
+		},
+		"weatherIcons" : {
+			"type" : "string",
+			"default" : "wi-day-sunny"
+		}
+	},
+	"textdomain": "dynamic-map-card",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
